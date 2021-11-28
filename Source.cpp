@@ -31,6 +31,10 @@ using namespace std;
 
 int main()
 {
+
+/********************************************************************************************************************************/
+/*  This section allows user to enter information to the vehicle base class and displays the information                        */    
+/********************************************************************************************************************************/
 	string manf;
 	string input;
 	int yr;
@@ -52,6 +56,8 @@ int main()
 	veh.setYearBuilt(yr);
 
 	veh.displayInfo();
+
+
 
 
 

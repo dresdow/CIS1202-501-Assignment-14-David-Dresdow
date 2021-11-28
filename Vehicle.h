@@ -48,4 +48,4 @@ public:
 	void displayInfo();
 };
 
-#endif // !VEHICLE_H
+#endif // VEHICLE_H
