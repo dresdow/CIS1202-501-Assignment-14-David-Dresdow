@@ -31,6 +31,29 @@ using namespace std;
 
 int main()
 {
+	string manf;
+	string input;
+	int yr;
+	Vehicle veh;
+	
+	cout << "Vehicle Program";
+	cout << "\n";
+	 
+	cout << "Vehicle:";
+	cout << "\n";
+
+	cout << "\nEnter the manufacturer: ";
+	getline(cin, manf);
+	veh.setManufacturer(manf);
+
+	cout << "\nEnter the year built: ";
+	getline(cin, input);
+	yr = stoi(input);
+	veh.setYearBuilt(yr);
+
+	veh.displayInfo();
+
+
 
 
 	system("pause");
