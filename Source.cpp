@@ -44,6 +44,7 @@ int main()
 	
 	cout << "Vehicle Program";
 	cout << "\n";
+	cout << "\n";
 	 
 	cout << "Vehicle:";
 	cout << "\n";
@@ -58,6 +59,8 @@ int main()
 	veh.setYearBuilt(yr);
 
 	veh.displayInfo();
+	cout << "\n";
+	cout << "\n";
 
 
  /*******************************************************************************************************************************/
@@ -65,17 +68,18 @@ int main()
 /********************************************************************************************************************************/
 
 	cout << "\n";
+	cout << "\n";
 	cout << "Car:";
 	cout << "\n";
 
 	cout << "\nEnter the manufacturer: ";
 	getline(cin, manf);
-	veh.setManufacturer(manf);
+	car.setManufacturer(manf);
 
 	cout << "\nEnter the year built: ";
 	getline(cin, input);
 	yr = stoi(input);
-	veh.setYearBuilt(yr);
+	car.setYearBuilt(yr);
 
 	cout << "\nEnter the number of doors: ";
 	getline(cin, input);
