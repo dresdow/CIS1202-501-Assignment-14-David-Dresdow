@@ -3,9 +3,9 @@
 /*                                                                                                                               */
 /*  CIS 1202 501                                                                                                                 */
 /*                                                                                                                               */
-/*  November 28, 2021                                                                                                           */
+/*  November 28, 2021                                                                                                            */
 /*                                                                                                                               */
-/*  Class Implementation  file - Assignment 14 -   ( class declaration in header file)                                           */
+/*   Vehicle Class Implementation  file - Assignment 14 -   ( class declaration in Vehicle file)                                 */
 /*                                                                                                                               */
 /*  This defines the member definitions in a  file for the class Vehicle                                                         */
 /*                                                                                                                               */
