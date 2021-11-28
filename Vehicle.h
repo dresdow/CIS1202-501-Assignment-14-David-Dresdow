@@ -24,7 +24,10 @@
 using namespace std;
 
 class Vehicle
-{
+{private:
+	string manufacturer;
+	int yearBuilt;
+
 
 
 
