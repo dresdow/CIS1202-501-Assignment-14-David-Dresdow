@@ -38,9 +38,11 @@ int main()
 	string manf;
 	string input;
 	int yr;
+	int towCap;
 	int doors;
 	Vehicle veh;
 	Car car;
+	Truck truck;
 	
 	cout << "Vehicle Program";
 	cout << "\n";
@@ -87,9 +89,33 @@ int main()
 	car.setNumberOfDoors(doors);
 
 	car.displayInfo();
+	cout << "\n";
+	cout << "\n";
 
+/*******************************************************************************************************************************/
+/*  This section allows user to enter information to the truck derived  class and displays the information                     */
+/********************************************************************************************************************************/
 
+	cout << "\n";
+	cout << "\n";
+	cout << "Truck:";
+	cout << "\n";
 
+	cout << "\nEnter the manufacturer: ";
+	getline(cin, manf);
+	truck.setManufacturer(manf);
+
+	cout << "\nEnter the year built: ";
+	getline(cin, input);
+	yr = stoi(input);
+	truck.setYearBuilt(yr);
+
+	cout << "\nEnter the towing capacity: ";
+	getline(cin, input);
+	towCap = stoi(input);
+	truck.setTowingCapacity(towCap);
+
+	truck.displayInfo();
 
 	cout << "\n";
 	cout << "\n";

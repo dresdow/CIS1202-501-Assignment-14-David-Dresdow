@@ -40,17 +40,3 @@ void Truck::displayInfo()
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
