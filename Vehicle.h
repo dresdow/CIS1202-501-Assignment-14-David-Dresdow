@@ -45,7 +45,7 @@ public:
 
 	void setYearBuilt(int);
 
-	void displayInfo(string, int);
+	void displayInfo();
 };
 
 #endif // !VEHICLE_H
