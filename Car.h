@@ -25,15 +25,23 @@
 using namespace std;
 
 class Car :
-    public Vehicle             / this makes Car be a derived class of base class Vehicle
+    public Vehicle             // this makes Car be a derived class of base class Vehicle
 {
 
+private:
+    int numberOfDoors;
 
+public:
+    Car():Vehicle()                // constructor
+    {
+        numberOfDoors = 0;
+    }
 
+    int getNumberOfDoors() const;
 
+    void setNumberOfDoors(int);
 
-
-
+    void displayInfo();
 
 };
 
