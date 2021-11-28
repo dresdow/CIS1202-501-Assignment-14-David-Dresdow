@@ -29,11 +29,23 @@ class Vehicle
 	int yearBuilt;
 
 
+public:
+	//Default Constructor
+	Vehicle()
+	{
+		manufacturer = "";
+		yearBuilt = 0;
+	}
 
+	string getManufacturer();
 
+	string getYearBuilt();
 
+	void setManufacturer(string);
 
+	void setYearBuilt(int);
 
+	void displayInfo(string, int);
 };
 
 #endif // !VEHICLE_H
