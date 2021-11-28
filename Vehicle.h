@@ -5,9 +5,9 @@
 /*                                                                                                                               */
 /*  November 28, 2021                                                                                                            */
 /*                                                                                                                               */
-/* Vehicle Base Class Header file - Assignment 14 - Working with base and derived classes                                        */
+/*  Vehicle Base Class Header file - Assignment 14 - Working with base and derived classes                                       */
 /*                                                                                                                               */
-/*  This defines the header file for the class Vehicle                                                                           */
+/*  This defines the header file for the base Vehicle                                                                           */
 /*                                                                                                                               */
 /********************************************************************************************************************************/
 
@@ -37,9 +37,9 @@ public:
 		yearBuilt = 0;
 	}
 
-	string getManufacturer();
+	string getManufacturer() const;
 
-	string getYearBuilt();
+	int getYearBuilt() const;
 
 	void setManufacturer(string);
 
