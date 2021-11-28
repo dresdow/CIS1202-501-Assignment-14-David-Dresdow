@@ -38,7 +38,9 @@ int main()
 	string manf;
 	string input;
 	int yr;
+	int doors;
 	Vehicle veh;
+	Car car;
 	
 	cout << "Vehicle Program";
 	cout << "\n";
@@ -58,9 +60,35 @@ int main()
 	veh.displayInfo();
 
 
+ /*******************************************************************************************************************************/
+/*  This section allows user to enter information to the car derived  class and displays the information                        */
+/********************************************************************************************************************************/
+
+	cout << "\n";
+	cout << "Car:";
+	cout << "\n";
+
+	cout << "\nEnter the manufacturer: ";
+	getline(cin, manf);
+	veh.setManufacturer(manf);
+
+	cout << "\nEnter the year built: ";
+	getline(cin, input);
+	yr = stoi(input);
+	veh.setYearBuilt(yr);
+
+	cout << "\nEnter the number of doors: ";
+	getline(cin, input);
+	doors = stoi(input);
+	car.setNumberOfDoors(doors);
+
+	car.displayInfo();
 
 
 
+
+	cout << "\n";
+	cout << "\n";
 
 	system("pause");
 	return 0;
