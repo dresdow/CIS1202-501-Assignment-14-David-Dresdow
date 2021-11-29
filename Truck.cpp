@@ -6,7 +6,7 @@
 /*                                                                                                                               */
 /*  Truck Class Implementation  file - Assignment 14 -   ( class declaration in Truck header file)                               */
 /*                                                                                                                               */
-/*  This defines the member definitions in a  file for the class Truck (a derived class from base class Vehicle)                 */
+/*  This defines the method definitions in a  file for the class Truck (a derived class from base class Vehicle)                 */
 /*                                                                                                                               */
 /********************************************************************************************************************************/
 

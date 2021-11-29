@@ -6,7 +6,7 @@
 /*                                                                                                                               */
 /*  Car Class Implementation  file - Assignment 14 -   ( class declaration in Car header file)                                   */
 /*                                                                                                                               */
-/*  This defines the member definitions in a  file for the class Car (a derived class from base class Vehicle)                   */
+/*  This defines the method definitions in a  file for the class Car (a derived class from base class Vehicle)                   */
 /*                                                                                                                               */
 /********************************************************************************************************************************/
 
